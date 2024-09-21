@@ -1,0 +1,5 @@
+outs:
+- md5: 108faa43ed1e126ee4b38a6a589ebaaf
+  size: 18
+  hash: md5
+  path: accuracy.json

@@ -1,3 +1,4 @@
+import json
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
@@ -17,3 +18,5 @@ model.fit(X_train, y_train)
 predictions = model.predict(X_test)
 accuracy = model.score(X_test, y_test)
 print(f"Accuracy: {accuracy:.2f}")
+with open("accuracy.json", "w") as f:
+    json.dump(accuracy, f)
