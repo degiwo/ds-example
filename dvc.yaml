@@ -5,3 +5,5 @@ stages:
     - train_model.py
     outs:
     - accuracy.json
+metrics:
+  - accuracy.json
