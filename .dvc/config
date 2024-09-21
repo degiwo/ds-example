@@ -1,4 +1,4 @@
 [core]
     remote = myremote
 ['remote "myremote"']
-    url = s3://degiwo-dvc-storage/ds-example/
+    url = C:\Users\Detlef\Desktop\dvcstore
