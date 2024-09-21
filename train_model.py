@@ -10,7 +10,7 @@ COL_PETAL_WIDTH = "petal width (cm)"
 
 X, y = load_iris(return_X_y=True, as_frame=True)
 
-X_train, X_test, y_train, y_test = train_test_split(X, y)
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=123)
 
 model = LogisticRegression()
 model.fit(X_train, y_train)
