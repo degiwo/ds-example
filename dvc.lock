@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  train_model:
+    cmd: python train_model.py
+    deps:
+    - path: train_model.py
+      hash: md5
+      md5: b72150367c6a9a27ff32035632bfa3d1
+      size: 674
+    outs:
+    - path: accuracy.json
+      hash: md5
+      md5: e4c2e8edac362acab7123654b9e73432
+      size: 3
