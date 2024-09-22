@@ -17,6 +17,7 @@ def plot(x) -> Axes:
         x=x,
         y=COL_SEPAL_WIDTH,
         hue=y,
+        legend=False,  # Hide legend to save space
     )
 
 ax = plot(x=COL_SEPAL_LENGTH)
