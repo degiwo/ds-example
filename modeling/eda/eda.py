@@ -2,7 +2,7 @@ from sklearn.datasets import load_iris
 from matplotlib.axes._axes import Axes
 import seaborn as sns
 import matplotlib.pyplot as plt
-import streamlit as st
+# import streamlit as st
 
 COL_SEPAL_LENGTH = "sepal length (cm)"
 COL_SEPAL_WIDTH = "sepal width (cm)"
@@ -20,11 +20,11 @@ def plot(x) -> Axes:
     )
 
 ax = plot(x=COL_SEPAL_LENGTH)
-plt.savefig("iris_scatterplot.png")
+plt.savefig("eda/iris_scatterplot.png")
 
-x = st.selectbox(
-    "x column", (COL_SEPAL_LENGTH, COL_SEPAL_WIDTH)
-)
-
-ax = plot(x)
-st.pyplot(ax.figure, clear_figure=True)
+# x = st.selectbox(
+#     "x column", (COL_SEPAL_LENGTH, COL_SEPAL_WIDTH)
+# )
+# 
+# ax = plot(x)
+# st.pyplot(ax.figure, clear_figure=True)

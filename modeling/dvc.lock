@@ -16,3 +16,15 @@ stages:
       hash: md5
       md5: dcc63a2a5bf635c81be18298f6082f58
       size: 1327
+  eda:
+    cmd: python eda/eda.py
+    deps:
+    - path: eda/eda.py
+      hash: md5
+      md5: 50649545ff0963f37e520d2efe25c910
+      size: 727
+    outs:
+    - path: eda/iris_scatterplot.png
+      hash: md5
+      md5: 059bcc4ec6c06954176dfa0c3a9c73d8
+      size: 37381

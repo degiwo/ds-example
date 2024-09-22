@@ -1,4 +1,10 @@
 stages:
+  eda:
+    cmd: python eda/eda.py
+    deps:
+    - eda/eda.py
+    outs:
+    - eda/iris_scatterplot.png
   train_model:
     cmd: python train_model.py
     deps:
