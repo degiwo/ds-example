@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  train_model:
+    cmd: python train_model.py
+    deps:
+    - path: train_model.py
+      hash: md5
+      md5: 1290f426b2c4e17effe310e18ab0c026
+      size: 743
+    outs:
+    - path: accuracy.json
+      hash: md5
+      md5: 418cb0312a8b30ed8fc3c51f117c58cc
+      size: 18
+    - path: model.joblib
+      hash: md5
+      md5: dcc63a2a5bf635c81be18298f6082f58
+      size: 1327

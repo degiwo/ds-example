@@ -1,0 +1,7 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = C:\Users\Detlef\Desktop\dvcstore
+['remote "origin"']
+    url = s3://dvc
+    endpointurl = https://dagshub.com/degiwo/ds-example.s3
