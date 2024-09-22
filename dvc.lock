@@ -5,10 +5,14 @@ stages:
     deps:
     - path: train_model.py
       hash: md5
-      md5: 972c091c3e763a3c543f3d47b85a25ec
-      size: 692
+      md5: 1290f426b2c4e17effe310e18ab0c026
+      size: 743
     outs:
     - path: accuracy.json
       hash: md5
       md5: 418cb0312a8b30ed8fc3c51f117c58cc
       size: 18
+    - path: model.joblib
+      hash: md5
+      md5: dcc63a2a5bf635c81be18298f6082f58
+      size: 1327
