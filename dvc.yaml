@@ -5,6 +5,5 @@ stages:
     - train_model.py
     outs:
     - model.joblib
+    metrics:
     - accuracy.json
-metrics:
-  - accuracy.json
